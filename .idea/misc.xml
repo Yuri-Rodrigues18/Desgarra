@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/7634862/Desktop/Desgarra/app/src/main/res/layout/fragment_adicionar_inicio_pelucia.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/7634862/Desktop/Desgarra/app/src/main/res/layout/fragment_editar_pelucia.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/7634862/Desktop/Desgarra/app/src/main/res/layout/fragment_listar_pelucia.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/7634862/Desktop/Desgarra/app/src/main/res/layout/fragment_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/7634862/Desktop/Desgarra/app/src/main/res/layout/fragment_perfil.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/7634862/Desktop/Desgarra/app/src/main/res/layout/pelucia_item.xml" value="0.30085470085470084" />
       </map>
     </option>
   </component>

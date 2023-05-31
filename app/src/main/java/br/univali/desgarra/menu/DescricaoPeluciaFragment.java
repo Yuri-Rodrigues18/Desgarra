@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import br.univali.desgarra.R;
+import br.univali.desgarra.pelucia.AdicionarInicioPeluciaFragment;
 
 public class DescricaoPeluciaFragment extends Fragment {
 

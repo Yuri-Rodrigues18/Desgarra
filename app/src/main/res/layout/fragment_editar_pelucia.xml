@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cad_pelu"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:context=".EditarPeluciaFragment"
+        >
+
+        <ImageButton
+            android:id="@+id/voltar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="180dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_8"
+            app:layout_constraintBottom_toTopOf="@id/editTextNome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/editTextDescricao"
+            app:layout_constraintTop_toBottomOf="@+id/voltar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/black"
+            android:hint="Nome"
+            android:background="@drawable/edit_text_border" />
+
+        <EditText
+            android:id="@+id/editTextDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/editTextPreco"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNome"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:textColorHint="@color/black"
+            android:hint="Descrição"
+            android:background="@drawable/edit_text_border" />
+
+
+        <EditText
+            android:id="@+id/editTextPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextDescricao"
+            app:layout_constraintBottom_toTopOf="@+id/editTextCor"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/black"
+            android:hint="Preço"
+            android:background="@drawable/edit_text_border" />
+
+        <EditText
+            android:id="@+id/editTextCor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Cor"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/continuar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPreco" />
+
+        <Button
+            android:id="@+id/continuar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="Continuar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonEditar"
+            app:layout_constraintTop_toBottomOf="@+id/editTextCor" />
+
+        <Button
+            android:id="@+id/buttonEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/continuar"
+            app:layout_constraintHorizontal_bias="0.298"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextCor"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

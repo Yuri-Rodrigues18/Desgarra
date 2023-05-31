@@ -9,6 +9,7 @@ import androidx.appcompat.widget.AppCompatImageButton;
 import androidx.fragment.app.Fragment;
 
 import br.univali.desgarra.R;
+import br.univali.desgarra.pelucia.AdicionarInicioPeluciaFragment;
 
 
 public class FeedFragment extends Fragment {
